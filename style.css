@@ -12,17 +12,16 @@ body {
 
 nav {
   background-color: #f6f2e8;
-  width: 100%;
+  justify-content: space-around;
+  /* width: 100%; */
   height: 180px;
   margin: 0;
   padding: 0;
   display: flex;
-  /* position:fixed; */
-  /* position: sticky; */
 }
 
 nav img {
-  width: 300px;
+  width: auto;
   height: 150px;
 }
 
@@ -46,30 +45,29 @@ nav ul {
 }
 
 nav .container1 {
-  width: 500px;
+  /* width: 500px; */
   height: auto;
-  margin-left: 140px;
+  /* margin-left: 140px; */
   margin-top: 20px;
   cursor: pointer;
 }
 
 nav .container2 {
   margin-top: 130px;
+  display: flex;
 }
-
+/* 
 .menu-icon {
   width: 40px;
   height: 90px;
   display: flex;
   margin-left: 30px;
   padding-left: 50px;
-  /* background-color: brown; */
-}
+} */
 
 #menu {
   display: none;
   font-size: 25px;
-  /* display: none; */
 }
 
 .container3 {
@@ -82,7 +80,6 @@ nav .container2 {
 }
 
 .bottom-left1 {
-  /* width: 500px; */
   height: 100vh;
   margin-left: 220px;
   font-size: 25px;
@@ -91,7 +88,6 @@ nav .container2 {
   text-size-adjust: 0.2;
   line-height: 250%;
   letter-spacing: 1px;
-  /* margin-top: 20px; */
   padding-top: 20px;
 }
 
@@ -138,33 +134,16 @@ h1 {
   justify-content: space-around;
   align-items: center;
   margin: auto;
-  /* /* position: inherit; */
 }
 
 .mini1 {
-  /* width: 300px;
-  height: 400px; */
-  /* background-color: #0e3a4e; */
-  /* margin-right: auto;
-  margin-left: 200px; */
-  /* text-align: center; */
   font-size: 40px;
 }
 
-.mini2 {
-  /* width: 500px;
-  height: 600px; */
-  /* background-color: red; */
-  /* margin: auto; */
-  /* margin-right: 80px; */
-}
+/* .mini2 {
+} */
 
 .mini3 {
-  /* width: 300px;
-  height: 400px; */
-  /* background-color: red; */
-  /* margin-left: auto;
-  margin-right: 200px; */
   text-align: center;
   font-size: xx-large;
 }
@@ -222,7 +201,6 @@ h1 {
 
 #tex2 {
   font-size: large;
-  /* background-color: orange; */
   text-align: justify;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -248,9 +226,6 @@ h1 {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  /* width: inherit;
-  height: 800px;
-  color: white; */
 }
 
 .textt {
@@ -270,7 +245,6 @@ h1 {
 }
 
 #con1 {
-  /* background-color: red; */
   width: auto;
   height: 30px;
   font-size: 18px;
@@ -282,10 +256,8 @@ h1 {
 }
 
 #con2 {
-  /* background-color: blue; */
   width: auto;
   height: auto;
-
   line-height: 35px;
   font-size: 20px;
   letter-spacing: 3px;
@@ -295,7 +267,6 @@ h1 {
 }
 
 #con4 {
-  /* background-color: yellow; */
   width: auto;
   height: auto;
   margin-top: 50px;
@@ -325,9 +296,6 @@ h1 {
 }
 
 .container6 {
-  /* width: inherit;
-    height: 800px; */
-  /* background-color: black; */
   display: flex;
   justify-content: space-around;
   justify-content: center;
@@ -335,34 +303,16 @@ h1 {
   margin: auto;
 }
 
-.con6 {
-  /* width: 350px; */
-  /* height: 600px; */
-  /* top: 50px; */
-  /* position: relative; */
-  /* background-color: blue; */
-  /* margin-left: 200px;
-    font-size: small; */
-}
+/* .con6 {
+} */
 
-.con7 {
-  /* position: relative;
-    width: 650px;
-    height: 330px; */
-  /* background-color: pink; */
-  /* margin-left: 620px;
-    bottom: 550px;
-
-    border-width: 0px 0px 2px 0px;
-    border-style: solid;
-    border-color: rgb(190, 186, 186); */
-}
+/* .con7 {
+} */
 
 #li1 {
   display: block;
   width: 100%;
   height: 35px;
-  /* background-color: #E5E5E5; */
   text-align: right;
   border-width: 0px 0px 2px 0px;
   border-style: solid;
@@ -371,7 +321,6 @@ h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #508197;
   cursor: pointer;
-  /* background-color: pink; */
   font-size: 13px;
   letter-spacing: 1px;
 }
@@ -381,18 +330,8 @@ h1 {
   height: 280px;
 }
 
-.con8 {
-  /* position: relative;
-    width: 650px;
-    height: 240px; */
-  /* background-color: pink; */
-  /* margin-left: 620px;
-    bottom: 550px;
-
-    border-width: 0px 0px 2px 0px;
-    border-style: solid;
-    border-color: rgb(190, 186, 186); */
-}
+/* .con8 {
+} */
 
 .con8 h2 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -421,20 +360,17 @@ li::marker {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  /* background-color: red; */
 }
 
 .con7-1 {
-  height: 550px;
-  left: 720px;
-  top: 50px;
-  width: 35%;
-  /* background-color: #31485f; */
+  height: auto;
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 35%;
   position: relative;
 }
 
 .c1 {
-  /* background-color: antiquewhite; */
   height: 40px;
   text-align: center;
   font-size: large;
@@ -447,7 +383,6 @@ li::marker {
 }
 
 .c2 {
-  /* background-color: rgb(216, 129, 23); */
   height: 100px;
   font-size: 23px;
   color: white;
@@ -468,7 +403,6 @@ li::marker {
 }
 
 .c3 {
-  /* background-color: blueviolet ; */
   height: 70px;
   line-height: 1.25em;
   color: white;
@@ -489,7 +423,6 @@ li::marker {
   width: 150px;
   height: 160px;
   margin: 11px;
-  /* background-color: blueviolet; */
 }
 
 .button-section {
@@ -525,7 +458,6 @@ li::marker {
 }
 
 #con8-1 {
-  /* background-color: blueviolet; */
   height: 520px;
   width: 35%;
   padding-top: 80px;
@@ -538,7 +470,6 @@ li::marker {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   letter-spacing: 2px;
-  /* background-color: blanchedalmond; */
 }
 
 .text2 {
@@ -592,21 +523,13 @@ li::marker {
   cursor: pointer;
 }
 
-.con8-2 {
-  /* width: auto;
-  height: 500px;
-  margin-left: 200px;
-  margin-top: 150px; */
-  /* justify-content: center;
-  justify-items: center; */
-  /* width: auto; */
-}
+/* .con8-2 {
+} */
 
 .image2 {
   border-radius: 50%;
   margin-top: 80px;
   height: 320px;
-  /* width: 100%; */
 }
 
 .image3 {
@@ -619,14 +542,13 @@ li::marker {
 
 .container9 {
   background-image: url("https://www.radhanathswami.com/wp-content/uploads/2023/07/rns-smile-line-new.webp");
-  background-repeat: no-repeat;
   height: 100vh;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 .container10 {
   display: flex;
-  /* height: 500px; */
   height: 80vh;
 }
 
@@ -668,13 +590,10 @@ li::marker {
 }
 
 .image4 {
-  height: 55vh;
+  height: auto;
   margin-top: 130px;
-  width: 80vh;
-  /* width: auto; */
+  width: 100%;
 }
-
-
 
 .button1 {
   font-size: 13px;
@@ -691,11 +610,9 @@ li::marker {
 
 .container11 {
   background-image: url(./images/rns-w.webp);
-  height: 100%;
-  background-size: cover;   
-  width: 100%;
-  /* height: 1000px;
-  width: auto; */
+  background-size: cover;
+  height: 1000px;
+  width: auto;
   /* background-color: brown; */
 }
 
@@ -908,7 +825,7 @@ li::marker {
   height: 305px;
   /* position: relative; */
   /* left: 780px; */
-  background-color: #508197;
+  /* background-color: #508197; */
   /* top: 50px; */
   /* bottom: 1050px; */
 }
@@ -918,7 +835,7 @@ li::marker {
   height: 305px;
   /* position: relative; */
   /* left: 1000px; */
-  background-color: #508197;
+  /* background-color: #508197; */
   /* bottom: 1355px; */
 
   /* top: 100px; */
@@ -992,6 +909,9 @@ li::marker {
   text-align: center;
   padding-top: 5px;
 }
+.text-button{
+  text-align: center;
+}
 
 .text13-5 {
   width: auto;
@@ -1036,7 +956,6 @@ li::marker {
 .container14 {
   background-image: url("https://www.radhanathswami.com/wp-content/uploads/2023/03/radhanatha-swami-activist.jpg");
   background-repeat: no-repeat;
-
 }
 
 .image8 {
@@ -1140,7 +1059,6 @@ li::marker {
 
 #tr3 {
   width: 600px;
-  /* width: 100%; */
   height: 300px;
   top: 40px;
   left: 100px;
@@ -1241,6 +1159,7 @@ li::marker {
 
 #tr10 {
   width: 70%;
+  /* width: 70%; */
   height: 50px;
 }
 
@@ -1275,7 +1194,7 @@ li::marker {
 
 @media (max-width: 768px) {
   #size {
-    display: none;
+    /* display: none; */
   }
 
   .container3 {
@@ -1297,17 +1216,7 @@ li::marker {
     height: 287px;
   }
 
-  .menu-icon {
-    width: 87px;
-    height: 71px;
-    margin-left: 237px;
-    padding-left: 80px;
-    padding-top: 91px;
-  }
-
-  #menu {
-    font-size: 49px;
-  }
+ 
 
   /* .bottom-left1 {
     width: 771px;
@@ -1337,61 +1246,73 @@ li::marker {
 
   .container16 {
     width: 100%;
+    height: 70vh;
   }
 
   #tr0 {
     width: 100%;
     height: 500px;
-    gap: 80px;
+    gap: 30px;
     display: flex;
   }
 
   #tr1 {
-    width: 200px;
-    height: 450px;
+    /* width: 200px; */
+    /* height: 450px; */
     left: 5px;
     top: 0px;
     position: relative;
   }
 
   .image9 {
-    width: 158px;
-    height: 54px;
+    width: auto;
+    height:auto;
     margin-left: 1px;
     margin-top: 35px;
   }
 
   #tr2 {
-    width: 118px;
+    width: 150px;
     height: 422px;
     position: relative;
     left: 3px;
-    margin-left: 9px;
-    top: 30px;
+    /* margin-left: 9px; */
+    /* top: 30px; */
+    text-align: center;
   }
 
   #tr5 {
-    width: 341px;
-    height: 62px;
+    width: auto;
+    height: auto;
+  }
+  #tr9{
+    text-align: center;
+    margin-left: 90px;
+  }
+  #tr6{
+    width: auto;
+    height: auto;
   }
 
   .but {
-    width: 191px;
-    height: 40px;
+    width: 100%;
+    height: 4vh;
   }
 
-  #tr7 {
+  /* #tr7 {
     width: 343px;
     height: 50px;
-  }
+  } */
 
   #tr08 {
-    width: 80%;
+    width: 90vw;
     font-size: 12px;
   }
 
   .last {
-    margin-left: 8px;
+    margin-left: 15px;
+     margin-top: 168px;
+     font-size: 12px;
   }
 
   .container4 {
@@ -1399,41 +1320,49 @@ li::marker {
     flex-direction: column;
     margin-left: 30px;
   }
-
-  #text1 {
+  #text1{
     text-align: center;
   }
-
-  #text2 {
+  #text2{
     text-align: center;
   }
-
-  #tex2 {
+  #tex2{
     text-align: center;
-  }
-
-  .container10 {
-    flex-direction: column;
-    display: flex;
-    height: 80vh;
-  }
-
-  .con10-1 {
+  } 
+  #tr3{
     width: auto;
-    height: auto;
     text-align: center;
-    padding-top: 30px;
-    margin: 0px;
-    
+    margin-top: 40px;
+  }
+  #tr4{
+        width: auto;
+    height: 50px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    /* background-color: orange; */
+    color: #508197;
+    font-family: "Glacial", sans-serif;
+  }
+
+  /* .container10 {
+    flex-direction: column;
+    height: 100vh;
+  }
+  .con10-1{
+    margin: 44px 0px 0px 0px;
+    height: auto;
+    width: 0%;
   }
   .con10-2{
     margin-left: 0px;
     text-align: center;
-  }
- 
+  } */
 }
 
 @media (max-width: 768px) {
+  
+
+
 
   .container6 {
     /* background-color: black; */
@@ -1460,55 +1389,77 @@ li::marker {
     display: flex;
     justify-content: space-around;
   }
-
   .image1 {
     width: 80%;
     height: 160px;
     /* margin: 11px; */
     /* background-color: blueviolet; */
   }
-
+  
 
   .container8 {
     height: 100vh;
     width: inherit;
+    /* background-color: aqua; */
+    /* padding: 80px 0px 0px 150px; */
     display: flex;
     flex-direction: column;
     text-align: center;
+    /* margin-top: 80px; */
   }
-
-  #con8-1 {
+    #con8-1 {
+    /* background-color: blueviolet; */
+    /* height: 520px; */
     width: auto;
     text-align: center;
-  }
+    /* padding-top: 80px; */
+    /* margin-top: 50px; */
+}
+.text2{
+  text-align: center;
+}
+.text3{
+  text-align: center;
+}
 
-  .text2 {
+  .container10 {
+    flex-direction: column;
+    display: flex;
+    height: 80vh;
+    /* background-color: cadetblue */
+  }
+   .con10-1{
+    /* margin: 44px 0px 0px 0px; */
+    height: auto;
+    width:auto;
     text-align: center;
+    padding-top: 30px;
+    margin: 0px;
   }
-
-  .text3 {
+  .con10-2{
+    margin-left: 0px;
     text-align: center;
-  }
+    /* height: 50px; */
+  }  
 
-  .image4{
+  .image4 {
     height: 25vh;
+    /* margin-top: 130px; */
     width: 55vw;
   }
 
   #tr0 {
     flex-direction: column;
   }
-
-  .menu-icon {
-    align-items: center;
-    display: none;
+  #tr10{
+    margin-left: 65px;
   }
 
+  
   #img4 {
     width: 100%;
     height: 280px;
   }
-
   .container13 {
     flex-direction: column;
     height: 100vh;
@@ -1516,80 +1467,159 @@ li::marker {
     display: flex;
     /* background-color: blueviolet; */
   }
-
   #ts10 {
-    flex-direction: column;
+    /* flex-direction: column; */
     display: flex;
-    gap: 30px;
+    gap: 10px;
     justify-content: center;
+    margin-top: 80px;
   }
-
   .bottom-left1 {
     width: auto;
     justify-content: left;
   }
-
   .bottom-left2 {
     width: auto;
     margin-top: 100px;
     position: relative;
-    bottom: 300px;
+    bottom: 651px;
     left: 0px;
+    font-size: 27px;
     text-align: end;
   }
 
-  h1 {
+  h1{
     font-weight: 100;
     position: absolute;
     right: 0px;
     margin-top: 200px;
     text-align: end;
   }
-
-  .bottom-left3 {
+  .bottom-left3{
     width: 70vw;
     bottom: -551px;
     left: 122px;
     padding-top: 25px;
   }
-
-  #button {
+  #button{
     width: 60vw;
     height: 77px;
     right: 0px;
-
+    
   }
-
-  .textt {
+  .textt{
     position: relative;
     right: 0px;
     height: 300px;
     text-align: end;
     width: auto;
   }
-
-  #con5 {
+  #con5{
     right: 35%;
     position: relative;
   }
-
-
-  .con12-1{
-    /* width: 177vw; */
+  .image7{
     width: 100vw;
+    height: 50vh;
   }
-  .logo {
-    margin-left: 2%;
 }
-/* #ts11{
-  position: relative;
-  left: 30px;
-  top: 100px;
-} */
 
-.image7{
+@media (max-width: 768px){
+  .con14-2 {
+    /* bottom: 650px; */
+    /* position: relative; */
+    height: 100vh;
+    width: 100%;
+}
+.text14-1 {
+    font-size: 26px;
+    letter-spacing: 1px;
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    width: auto;
+    height: auto;
+}
+.text14-2 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-family: "Glacial", sans-serif;
+    font-weight: 600;
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+}
+.image17{
+  height: 70%;
+  width: 80%;
+}
+.con12-1{
   width: 100vw;
-  height: 50vh;
+}  
+.logo{
+  margin-left: 2px;
+}
+.text12-1{
+  margin-left: 90px;
+} 
+.text12-1-1{
+  width: 55vw;
+}
+#ts12{
+  width: 235px;
+  padding: 66px;
+  font-size: 24px;
+  line-height: 30px;
+}
+.container16 #tr0{
+  align-items: center;
 }
 
+
+
+}
+
+@media(max-width: 950px) {
+  #menu {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+  } 
+  
+  #size{
+    /* display: none; */
+  }
+
+}
+
+@media (max-width:984px) {
+  nav ul {
+    flex-direction: column;
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    right: 0px;
+    text-align: center;
+    /* background-color: #2d4358; */
+    overflow: hidden;
+  }
+  
+  nav ul li{
+    padding: 10px;
+  }
+  nav{
+    height: 20vh;
+  }
+  #menu{
+    display: block;
+  }
+
+  #size{
+    transition: all 0.5s;
+  }
 }

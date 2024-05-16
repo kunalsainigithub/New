@@ -4,10 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>RADHANATH SWAMI</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="script.js">
     </head>
     <body>
+        <script src="https://kit.fontawesome.com/f8e1a90484.js"
+            crossorigin="anonymous"></script>
         <nav>
             <div class="container1">
                 <img
@@ -16,23 +20,44 @@
             </div>
             <div class="container2">
                 <ul id="size">
-                    <li><a href="" class="link">ABOUT</a></li>
-                    <li><a href="" class="link">INITIATIVES</a></li>
-                    <li><a href="" class="link">RESOURCES</a></li>
-                    <li><a href="" class="link">GET INVOLVED</a></li>
-                    <li><a href="" class="link">NEWSLETTER</a></li>
-                    <li><a href="" class="link">CONTACT</a></li>
+                    <li><a href class="link">ABOUT</a></li>
+                    <li><a href class="link">INITIATIVES</a></li>
+                    <li><a href class="link">RESOURCES</a></li>
+                    <li><a href class="link">GET INVOLVED</a></li>
+                    <li><a href class="link">NEWSLETTER</a></li>
+                    <li><a href class="link">CONTACT</a></li>
                 </ul>
                 <div class="menu-icon">
-                    <i class="fa-solid fa-bars" id="menu"></i>
+                    <i class="fa-solid fa-bars" id="menu"
+                        onclick="toggleMenu()"></i>
                 </div>
             </div>
         </nav>
 
+        <script>
+            let size = document.getElementById("size")
+            //const kunal  = size.style.maxHeight= "0px";
+            //const muskan = size.style.maxHeight= "300px";
+            size.style.maxHeight= "0px";
+
+
+            function toggleMenu() {
+                let size = document.getElementById("size");
+                if(size.style.maxHeight == "0px"){
+                    console.log("Kunal");
+                    size.style.maxHeight= "300px";
+                }
+                else{
+                    size.style.maxHeight= "0px";
+                }
+               
+            }
+        </script>
+
         <div class="container3">
 
             <div class="bottom-left1">
-                <h1>THE ESSENCE <br> OF LIFE</h1>
+                <h1>THE ESSENCE <br> OF SPIRITUALITY</h1>
             </div>
             <div class="bottom-left2">
                 <p>For over 50 years, Radhanath Swami, a monk in <br> the bhakti
@@ -85,12 +110,13 @@
                 src="https://www.radhanathswami.com/wp-content/uploads/2023/10/radhanath-swami-projects-worldwide.webp"
                 alt
                 id="img3"> -->
-                <div class="textt">
-            <div id="con1">FEATURED</div>
-            <div id="con2">Radhanath Swami has initiated projects that have served millions of people</div>
-            <div id="con4">Here's a snapshot of his philanthropic work</div>
-            <button id="con5">LEARN MORE</button>
-        </div>
+            <div class="textt">
+                <div id="con1">FEATURED</div>
+                <div id="con2">Radhanath Swami has initiated projects that have
+                    served millions of people</div>
+                <div id="con4">Here's a snapshot of his philanthropic work</div>
+                <button id="con5">LEARN MORE</button>
+            </div>
         </div>
         <div class="container6">
             <div class="con6">
@@ -109,28 +135,28 @@
                 </ul>
             </div>
             <div>
-            <div class="con7"><img
-                    src="https://www.radhanathswami.com/wp-content/uploads/2023/03/Radhanath-Swami-Feeding-Children-copy.webp"
-                    alt="img" id="img4"></div>
-            <div class="con8">
+                <div class="con7"><img
+                        src="https://www.radhanathswami.com/wp-content/uploads/2023/03/Radhanath-Swami-Feeding-Children-copy.webp"
+                        alt="img" id="img4"></div>
+                <div class="con8">
 
-                <h2>TACKLING HUNGER & EDUCATION</h2>
-                <div>
-                    <ul>
+                    <h2>TACKLING HUNGER & EDUCATION</h2>
+                    <div>
+                        <ul>
 
-                        <li>The Midday Meals Project serves food to school
-                            children
-                            to combat poverty, malnutrition & illiteracy.
-                        </li>
-                        <li>4 billion+ meals served since inception.
-                        </li>
-                        <li>1.2 million meals served daily in schools across
-                            India.
-                        </li>
-                    </ul>
+                            <li>The Midday Meals Project serves food to school
+                                children
+                                to combat poverty, malnutrition & illiteracy.
+                            </li>
+                            <li>4 billion+ meals served since inception.
+                            </li>
+                            <li>1.2 million meals served daily in schools across
+                                India.
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
 
         <div class="container7">
@@ -167,8 +193,10 @@
                     of<br>Divine Love known as 'Bhakti Yoga', a practice<br>that
                     has been passed down by saints and sages overthousands of
                     years.</div>
-                <div><button class="text4">SRILA PRABHUPADA</button></div>
-                <div><button class="text5">BHAKTI YOGA</button></div>
+                <div class="text-button"><button class="text4">SRILA
+                        PRABHUPADA</button></div>
+                <div class="text-button"><button class="text5">BHAKTI
+                        YOGA</button></div>
             </div>
             <div class="con8-2"><img
                     src="https://www.radhanathswami.com/wp-content/uploads/2023/03/srila-prabhupada-rns.jpg"
@@ -228,14 +256,17 @@
                         <div id="ts14">Philosopher and political activist</div>
                         <div id="ts15"><button id="ts16">READ IT</button></div>
                     </div>
-                    <div id="ts17"><img src="https://www.radhanathswami.com/wp-content/uploads/2023/03/rns-journeyhomesingle.jpg"
-                            alt></div>
-                    <div id="ts18"><img src="https://www.radhanathswami.com/wp-content/uploads/2023/03/rns-journeywithinsingle.jpg"
-                            alt></div>
+                    <!-- <div class="imagets17"> -->
+                    <div id="ts17"><img
+                            src="https://www.radhanathswami.com/wp-content/uploads/2023/03/rns-journeyhomesingle.jpg"
+                            class="image17"></div>
+                    <div id="ts18"><img
+                            src="https://www.radhanathswami.com/wp-content/uploads/2023/03/rns-journeywithinsingle.jpg"
+                            class="image17"></div>
+                    <!-- </div> -->
                 </div>
             </div>
         </div>
-
 
         <div class="container13">
             <div class="con13-1"><img
@@ -258,7 +289,10 @@
                 <!-- <img src="" alt="" class="image8"> -->
                 <div class="con14-2">
                     <div class="inv-com1">&#8216;&#8216</div>
-                    <div class="text14-1">Things can give pleasure to the mind and<br>senses, but only love can give pleasure to the<br>heart. And ultimately, that is what we are<br>looking for.</div>
+                    <div class="text14-1">Things can give pleasure to the mind
+                        and<br>senses, but only love can give pleasure to
+                        the<br>heart. And ultimately, that is what we
+                        are<br>looking for.</div>
                     <div class="text14-2">RADHANATH SWAMI</div>
                     <div class="inv-com2">&#8217;&#8217</div>
                 </div>
@@ -266,29 +300,38 @@
         </div>
         <div class="container16">
             <div id="tr0">
-                <div id="tr1"><img src="https://www.radhanathswami.com/wp-content/uploads/2023/03/radhanatha-swami-footer.png" alt="" class="image9"></div>
+                <div id="tr1"><img
+                        src="https://www.radhanathswami.com/wp-content/uploads/2023/03/radhanatha-swami-footer.png"
+                        alt class="image9"></div>
                 <div id="tr2">
-                    <a href="" class="links">ABOUT<br></a>
-                    <a href="" class="links">GET INVOLVED</a>
-                    <a href="" class="links">CONTACT</a>
+                    <a href class="links">ABOUT<br></a>
+                    <a href class="links">GET INVOLVED</a>
+                    <a href class="links">CONTACT</a>
                 </div>
                 <div id="tr3">
                     <div id="tr4">SUBSCRIBE</div>
                     <div id="tr5">Receive updates straight to your inbox</div>
-                    <div id="tr6"><input type="text" placeholder="NAME" class="but"> <input placeholder="EMAIL" type="text" class="but"></div>
-                    <div id="tr7"> <input type="checkbox"  name id>Yes, I would
+                    <div id="tr6"><input type="text" placeholder="NAME"
+                            class="but"> <input placeholder="EMAIL" type="text"
+                            class="but"></div>
+                    <div id="tr7"> <input type="checkbox" name id>Yes, I would
                         like the Office of H.H. Radhanath Swami to send me
                         emails about its activities. You can unsubscribe at any
                         time.</div>
-                    <div id="tr8"> <button id="tr08">&#8594;SUBSCRIBE</button></div>
+                    <div id="tr8"> <button
+                            id="tr08">&#8594;SUBSCRIBE</button></div>
                     <div id="tr9">FOLLOW</div>
                     <div id="tr10">
-                        <img src="images/icons8-instagram-50.png" alt="" class="tr010">
-                        <img src="images/icons8-facebook-50.png" alt="" class="tr010">
-                        <img src="images/icons8-youtube-30.png" alt="" class="tr010">
-                        <img src="images/icons8-twitter-50.png" alt="" class="tr010">
+                        <img src="images/icons8-instagram-50.png" alt
+                            class="tr010">
+                        <img src="images/icons8-facebook-50.png" alt
+                            class="tr010">
+                        <img src="images/icons8-youtube-30.png" alt
+                            class="tr010">
+                        <img src="images/icons8-twitter-50.png" alt
+                            class="tr010">
                     </div>
-                    
+
                 </div>
             </div>
             <div class="last">© OFFICE OF RADHANATH SWAMI</div>
